@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// ABSTRACTION
 public abstract class Shape : MonoBehaviour
 {
     private Color ShapeColor;
+
+    // ENCAPSULATION
     public Color ShapeColorProperty
     {
         get { return ShapeColor; }
